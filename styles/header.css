@@ -65,6 +65,7 @@
     border-color: rgb(192, 192, 192);
     margin-left: -1px;
     margin-right: 10px;
+    
   }
   
   .search-button,
@@ -74,6 +75,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    cursor: pointer;
   }
   
   .search-button .tooltip,
@@ -132,10 +134,12 @@
   
   .youtube-apps-icon {
     height: 24px;
+    cursor: pointer;
   }
   
   .notifications-icon {
     height: 24px;
+    cursor: pointer;
   }
   
   .notifications-icon-container {
@@ -159,4 +163,5 @@
   .current-user-picture {
     height: 32px;
     border-radius: 16px;
+    cursor: pointer;
   }
